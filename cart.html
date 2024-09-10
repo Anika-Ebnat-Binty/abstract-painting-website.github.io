@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Abstract Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="cart-page.js"></script> <!-- JS for Cart Page -->
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Abstract Art Gallery</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Gallery</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+
+    <!-- Cart Section -->
+    <section class="cart-content">
+        <h1>Your Cart</h1>
+        <div id="cart-items"></div> <!-- Pictures and remove buttons will be dynamically loaded here -->
+        <button onclick="buyNow()">Buy Now</button> <!-- Buy Now button -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Abstract Art Gallery. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+

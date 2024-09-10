@@ -1,0 +1,952 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('background.webp'); /* Background image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    padding: 100px 20px; /* Adjusts padding for spacing */
+    text-align: center;
+    color: white; /* Changes text color to white for better contrast */
+}
+
+.hero h1 {
+    font-size: 3em; /* Adjust font size */
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: rgba(0, 0, 0, 0.7); /* Adds semi-transparent background to the button */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product {
+    text-align: center;
+    width: 200px;
+}
+
+.product img {
+    width: 100%;
+}
+
+.btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.about {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adds space between the links */
+    flex-wrap: wrap; /* Makes sure the links wrap on smaller screens */
+}
+
+.about-links a {
+    font-size: 1.2em;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #eaeaea;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.about-links a:hover {
+    background-color: #333;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+/* Global styles for the entire website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styling */
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Section content for the contact page */
+.page-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page-content h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.page-content p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.page-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.page-content ul li {
+    font-size: 1.1em;
+    padding: 10px 0;
+}
+
+.page-content ul li strong {
+    font-weight: bold;
+}
+
+.page-content ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.page-content ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+/* Global styles for the entire website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styling */
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Section content for the payment methods page */
+.page-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page-content h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.page-content p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.page-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.page-content ul li {
+    font-size: 1.1em;
+    padding: 10px 0;
+}
+
+.page-content ul li strong {
+    font-weight: bold;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+/* FAQ Page Styling */
+.faq-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.faq-content h1 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h2 {
+    font-size: 1.5em;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.faq-item h2:hover {
+    background-color: #555;
+}
+
+.faq-item p {
+    display: none;
+    font-size: 1.1em;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Show answer when active */
+.faq-item.active p {
+    display: block;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+/* Help Page Styling */
+.help-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.help-content h1 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.help-item {
+    margin-bottom: 20px;
+}
+
+.help-item h2 {
+    font-size: 1.5em;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.help-item h2:hover {
+    background-color: #555;
+}
+
+.help-item p {
+    display: none;
+    font-size: 1.1em;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Show answer when active */
+.help-item.active p {
+    display: block;
+}
+/* Delivery Fee Page Styling */
+.delivery-fee-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.delivery-fee-content h1 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.delivery-fee-content p {
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.region {
+    margin-bottom: 20px;
+}
+
+.region h2 {
+    font-size: 1.5em;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.region h2:hover {
+    background-color: #555;
+}
+
+.region p {
+    display: none;
+    font-size: 1.1em;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Show fee when active */
+.region.active p {
+    display: block;
+}
+/* Gallery Page Styling */
+.gallery-content {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-content h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.painting {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.painting img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.painting h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.painting .price {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.painting .description {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+/* Payment Page Styling */
+.payment-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.payment-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#cart-items p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#total-price {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.payment-content button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payment-content button:hover {
+    background-color: #555;
+}
+/* Gallery Page Styling */
+.gallery-content {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.gallery-content h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.painting {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.painting img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.painting h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.painting .price {
+    font-size: 1.2em;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.painting .description {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+/* Payment Methods Page Styling */
+.payment-methods-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-methods-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.payment-methods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.payment-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.payment-button:hover {
+    background-color: #555;
+}
+/* Cart Page Styling */
+.cart-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cart-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+
+
+
+.cart-content button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-content button:hover {
+    background-color: #555;
+}
+
+/* Payment Methods Page Styling */
+.payment-methods-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.payment-methods-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.payment-methods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.payment-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.payment-button:hover {
+    background-color: #555;
+}
+/* Cart Page Styling */
+.cart-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cart-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#cart-items img {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.cart-content button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart-content button:hover {
+    background-color: #555;
+}
+
+#cart-items img {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#cart-items p {
+    font-size: 1.2em;
+    color: #555;
+}
+/* Cart Page Styling */
+.cart-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cart-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#cart-items div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cart-items img {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+#cart-items button {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cart-items button:hover {
+    background-color: #e60000;
+}
+/* Cart Page Styling */
+.cart-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.cart-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#cart-items div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cart-items img {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+#cart-items button {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#cart-items button:hover {
+    background-color: #e60000;
+}
+
+button[disabled] {
+    cursor: not-allowed;
+    background-color: #ccc;
+}
+/* Payment Methods and Confirmation Page Styling */
+.payment-methods-content, .confirmation-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-methods-content h1, .confirmation-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.payment-methods a, .payment-button, .back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+.payment-button:hover, .back-button:hover {
+    background-color: #555;
+}
+
+.confirmation-content p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+/* Card Payment Form and Confirmation Page Styling */
+.card-form-content, .confirmation-content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-form-content h1, .confirmation-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form label {
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+.back-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #555;
+}

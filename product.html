@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Abstract Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="cart.js"></script> <!-- Link to JS file -->
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Abstract Art Gallery</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Gallery</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+
+    <!-- Gallery Section -->
+    <section class="gallery-content">
+        <h1>Our Paintings</h1>
+        <div class="gallery-grid">
+            <!-- Painting 1 -->
+            <div class="painting">
+                <img src="swirling.webp" alt="Swirling Colors">
+                <h2>Swirling Colors</h2>
+                <p>EUR 200.00</p>
+                <button onclick="addToCart('swirling.webp')">Add to Cart</button>
+            </div>
+
+            <!-- Painting 2 -->
+            <div class="painting">
+                <img src="patterns.webp" alt="Geometric Patterns">
+                <h2>Geometric Patterns</h2>
+                <p>EUR 250.00</p>
+                <button onclick="addToCart('patterns.webp')">Add to Cart</button>
+            </div>
+
+            <!-- Painting 3 -->
+            <div class="painting">
+                <img src="bold.webp" alt="Bold Strokes">
+                <h2>Bold Strokes</h2>
+                <p>EUR 180.00</p>
+                <button onclick="addToCart('bold.webp')">Add to Cart</button>
+            </div>
+            <!-- Painting 4 -->
+            <div class="painting">
+                <img src="swirl.webp" alt="Abstract Swirl">
+                <h2>Abstract Swirl</h2>
+                <p>EUR 120.00</p>
+                <button onclick="addToCart('swirl.webp')">Add to Cart</button>
+
+            </div>
+            <!-- Painting 5 -->
+            <div class="painting">
+                <img src="geomatric.webp" alt="Geometric Shapes">
+                <h2>Geometric Shapes</h2>
+                <p>EUR 150.00</p>
+                <button onclick="addToCart('geomatric.webp')">Add to Cart</button>
+            </div>
+            <!-- Painting 6 -->
+            <div class="painting">
+                <img src="vibrant.webp" alt="Sharp Contrast">
+                <h2>Sharp Contrast</h2>
+                <p>EUR 300.00</p>
+                <button onclick="addToCart('bold.webp')">Add to Cart</button>
+            </div>
+            <!-- Painting 7 -->
+            <div class="painting">
+                <img src="soft.webp" alt="Serene Flow">
+                <h2>Serene Flow</h2>
+                <p>EUR 220.00</p>
+                <button onclick="addToCart('bold.webp')">Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Abstract Art Gallery. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

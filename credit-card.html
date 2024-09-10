@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit/Debit Card Payment - Abstract Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Abstract Art Gallery</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Gallery</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+
+    <!-- Credit/Debit Card Form Section -->
+    <section class="card-form-content">
+        <h1>Enter Your Card Details</h1>
+        <form id="paymentForm" onsubmit="return submitPayment()">
+            <label for="cardName">Cardholder Name:</label>
+            <input type="text" id="cardName" name="cardName" required>
+
+            <label for="cardNumber">Card Number:</label>
+            <input type="text" id="cardNumber" name="cardNumber" maxlength="16" required>
+
+            <label for="expiryDate">Expiry Date:</label>
+            <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required>
+
+            <label for="cvc">CVC:</label>
+            <input type="text" id="cvc" name="cvc" maxlength="3" required>
+
+            <button type="submit">Submit Payment</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Abstract Art Gallery. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Function to handle form submission and redirect to confirmation page
+        function submitPayment() {
+            // Simulate form validation and submission (can be expanded for actual processing)
+            alert("Payment Submitted Successfully!");
+            // Redirect to the order confirmation page
+            window.location.href = 'order-confirmation.html';
+            return false;  // Prevent form from actually submitting
+        }
+    </script>
+</body>
+</html>

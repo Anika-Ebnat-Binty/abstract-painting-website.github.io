@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Methods - Abstract Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Abstract Art Gallery</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Gallery</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+
+    <!-- Payment Methods Page Content -->
+    <section class="payment-methods-content">
+        <h1>Select Your Payment Method</h1>
+        <div class="payment-methods">
+            <a href="credit-card.html" class="payment-button">Credit/Debit Cards</a> <!-- Link to Credit Card Form -->
+            <a href="paypal.html" class="payment-button">PayPal</a>
+            <a href="bank-transfer.html" class="payment-button">Bank Transfer</a>
+            <a href="crypto.html" class="payment-button">Cryptocurrency</a>
+            <button class="payment-button" onclick="selectCOD()">Cash on Delivery (COD)</button> <!-- COD button -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Abstract Art Gallery. All rights reserved.</p>
+    </footer>
+
+    <script defer src="payment-methods.js"></script> <!-- JS for handling COD -->
+</body>
+</html>

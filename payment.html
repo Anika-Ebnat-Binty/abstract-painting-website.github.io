@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - Abstract Art Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="paymen.js"></script> <!-- JS for Payment page -->
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">Abstract Art Gallery</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Gallery</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
+
+    <!-- Payment Section -->
+    <section class="payment-content">
+        <h1>Checkout</h1>
+        <div id="cart-items"></div> <!-- Items will be dynamically loaded here -->
+        <p id="total-price"></p>
+        <button onclick="processPayment()">Proceed to Payment</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Abstract Art Gallery. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
